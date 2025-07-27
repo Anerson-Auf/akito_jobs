@@ -50,6 +50,7 @@ local StatsMS={
 		sdemon=260,
 		demon=250,
 		wdemon=200,
+		clowndemon=190000,
 
 	}
 }
