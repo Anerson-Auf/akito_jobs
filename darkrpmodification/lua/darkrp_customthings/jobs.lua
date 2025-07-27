@@ -311,7 +311,7 @@ TEAM_STOLPFLOWER = DarkRP.createJob('Столп Цветка', {
 
 TEAM_SHINJURO = DarkRP.createJob('Шинджуро Ренгоку', {
 	command = 'TEAM_SHINJURO', description = '', max = 0, salary = 0, admin = 0, vote = false, hasLicense = false, candemote = false,
-	category = 'Столпы', model = {'models/yufu/oldjimmy/demonslayer/canon/shinjuro_rengoku.mdl'},
+	category = 'Бывшие Столпы', model = {'models/yufu/oldjimmy/demonslayer/canon/shinjuro_rengoku.mdl'},
 	color = clr.fire,
 	weapons = {'akito_katana'},
 	PlayerSpawn = function(ply)
@@ -322,7 +322,7 @@ TEAM_SHINJURO = DarkRP.createJob('Шинджуро Ренгоку', {
 
 TEAM_JIGORO = DarkRP.createJob('Джигоро Куваджима', {
 	command = 'TEAM_JIGORO', description = '', max = 0, salary = 0, admin = 0, vote = false, hasLicense = false, candemote = false,
-	category = 'Столпы', model = {'models/yufu/oldjimmy/demonslayer/canon/jigoro_kuwajima.mdl'},
+	category = 'Бывшие Столпы', model = {'models/yufu/oldjimmy/demonslayer/canon/jigoro_kuwajima.mdl'},
 	color = clr.thunder,
 	weapons = {'akito_katana'},
 	PlayerSpawn = function(ply)
@@ -333,7 +333,7 @@ TEAM_JIGORO = DarkRP.createJob('Джигоро Куваджима', {
 
 TEAM_SAKONJI = DarkRP.createJob('Саконджи Урокодаки', {
 	command = 'TEAM_SAKONJI', description = '', max = 0, salary = 0, admin = 0, vote = false, hasLicense = false, candemote = false,
-	category = 'Столпы', model = {'models/yufu/oldjimmy/demonslayer/canon/sakonji_urokodaki.mdl'},
+	category = 'Бывшие Столпы', model = {'models/yufu/oldjimmy/demonslayer/canon/sakonji_urokodaki.mdl'},
 	color = clr.water,
 	weapons = {'akito_katana'},
 	PlayerSpawn = function(ply)
@@ -461,7 +461,5 @@ TEAM_MUDAK = DarkRP.createJob('Мудзан Кибуцуджи', {
         --ply:_SetupDemon(leader, hmoon, lmoon, ldemon, bloodtype)
     end,
 })
-
-
 
 GAMEMODE.DefaultTeam = TEAM_FIRST
