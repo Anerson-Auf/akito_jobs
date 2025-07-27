@@ -11,7 +11,7 @@ local StatsHP={
 		kakushi=250,
 	}, 
 	demon={
-		leader=1700,
+		leader=1500,
 		hmoon=1000,
 		lmoon=800,
 		hinst=650,
@@ -26,29 +26,29 @@ local StatsHP={
 }
 local StatsMS={
 	slayer={
-		leader=425,
-		stolp=335,
-		fstolp=315,
-		hinst=290,
-		dinst=275,
-		inst=265,
-		tsuguko=300,
-		slayer=260,
-		student=200,
-		kakushi=200,
+		leader=435,
+		stolp=370,
+		fstolp=345,
+		hinst=330,
+		dinst=320,
+		inst=310,
+		tsuguko=310,
+		slayer=300,
+		student=300,
+		kakushi=250,
 	},
 	demon={
-		leader=425, 
-		hmoon=380,
+		leader=435, 
+		hmoon=390,
 		lmoon=350,
-		hinst=290,
-		dinst=280,
-		inst=260,
-		dmoon=300,
-		bdemon=270,
-		sdemon=260,
-		demon=250,
-		wdemon=200,
+		hinst=330,
+		dinst=320,
+		inst=310,
+		dmoon=310,
+		bdemon=310,
+		sdemon=310,
+		demon=280,
+		wdemon=250,
 	}
 }
 
@@ -349,7 +349,7 @@ TEAM_KOKUSHIBO = DarkRP.createJob('Кокушибо', {
 	weapons = {'akito_claws'},
     PlayerSpawn = function(ply)
         ply:_SetupStatPlayer(StatsHP.demon.leader, StatsMS.demon.leader)
-        ply:_SetupDemon(false, true, false, false, 'Kokushiba')
+        ply:_SetupDemon(false, true, false, false, 'Kokushibo')
         --ply:_SetupDemon(leader, hmoon, lmoon, ldemon, bloodtype)
     end,
 })
