@@ -20,7 +20,7 @@ local StatsHP={
 		dmoon=650,
 		bdemon=450,
 		sdemon=500,
-		demon=400,
+		demon=410,
 		wdemon=300,
 	}
 }
