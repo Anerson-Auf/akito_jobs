@@ -36,7 +36,6 @@ local StatsMS={
 		slayer=260,
 		student=200,
 		kakushi=200,
-
 	},
 	demon={
 		leader=425,
@@ -50,8 +49,6 @@ local StatsMS={
 		sdemon=260,
 		demon=250,
 		wdemon=200,
-		clowndemon=190000,
-
 	}
 }
 
