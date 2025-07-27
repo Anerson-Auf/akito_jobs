@@ -38,7 +38,7 @@ local StatsMS={
 		kakushi=200,
 	},
 	demon={
-		leader=425,
+		leader=425, 
 		hmoon=380,
 		lmoon=350,
 		hinst=290,
