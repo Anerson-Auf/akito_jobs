@@ -409,7 +409,7 @@ TEAM_GYUTARO = DarkRP.createJob('Гютаро', {
 	weapons = {'akito_claws'},
     PlayerSpawn = function(ply)
         ply:_SetupStatPlayer(StatsHP.demon.hmoon, StatsMS.demon.hmoon)
-        ply:_SetupDemon(false, true, false, false, 'Gutaro')
+        ply:_SetupDemon(false, true, false, false, 'Gyutaro')
         --ply:_SetupDemon(leader, hmoon, lmoon, ldemon, bloodtype)
     end,
 })
